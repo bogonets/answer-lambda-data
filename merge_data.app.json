@@ -1,0 +1,37 @@
+{
+    "info": {
+        "name": "merge_data",
+        "version": "1.0.0", 
+        "category": "box",
+        "keywords":["box","merge"	
+	], 
+	"homepage": "https://answer.bogonets.com/",
+        "bugs": "https://answer.bogonets.com/",
+        "license": "Bogonet License",
+        "author": "doyeon",
+        "dependencies": [
+            {"type": "pip", "src": "numpy"},
+            {"type": "pip", "src": "opencv-python"}
+        ],
+        "engines": ">=1.0.2",
+        "environment": {
+            "type": "pyenv",
+            "name": "intersect"
+        },
+        "titles": {
+            "en": "merge serialized data based on base64",
+            "ko": "데이터 직렬화"
+        },
+        "descriptions": {
+            "en": "",
+            "ko": ""
+        },
+        "documentation_mime": "text",
+        "documentations": {},
+        "meta": {}
+    },
+    "controls": {
+        "input":  "array",
+        "output": "data"
+    }
+}
